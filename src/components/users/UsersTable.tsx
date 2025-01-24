@@ -1,14 +1,14 @@
-"use strict";
+"use client";
 import {
-    DialogActionTrigger,
-    DialogBody,
-    DialogCloseTrigger,
-    DialogContent,
-    DialogFooter,
-    DialogHeader,
-    DialogRoot,
-    DialogTitle,
-    DialogTrigger,
+  DialogActionTrigger,
+  DialogBody,
+  DialogCloseTrigger,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogRoot,
+  DialogTitle,
+  DialogTrigger,
 } from "@/components/ui/dialog";
 import { InputGroup } from "@/components/ui/input-group";
 import { Button, HStack, Heading, Input, Stack, Table } from "@chakra-ui/react";

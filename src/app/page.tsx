@@ -10,8 +10,6 @@ import UsersTable from "../components/users/UsersTable";
 export default function Home() {
   const [activeComponent, setActiveComponent] = useState("Posts");
 
-
-
   const renderActiveComponent = () => {
     switch (activeComponent) {
       case "Posts":
@@ -57,6 +55,7 @@ export default function Home() {
       </div>
 
       {renderActiveComponent()}
+      
     </>
   );
 }

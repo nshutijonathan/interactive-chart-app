@@ -1,18 +1,16 @@
 import { InputGroup } from "@/components/ui/input-group";
 import {
-    MenuContent,
-    MenuItem,
-    MenuRoot,
-    MenuTrigger,
+  MenuContent,
+  MenuItem,
+  MenuRoot,
+  MenuTrigger,
 } from "@/components/ui/menu";
 import { Button, HStack, Input } from "@chakra-ui/react";
 import {
-    CreditCard,
-    Folders,
-    LayoutDashboard,
-    Newspaper,
-    Settings,
-    User,
+  LayoutDashboard,
+  Newspaper,
+  Settings,
+  User
 } from "lucide-react";
 import Link from "next/link";
 import { HiCog } from "react-icons/hi";
@@ -44,20 +42,13 @@ const Sidebar = () => {
             <Newspaper className="mr-2 h-4 w-4" />
             <Link href="/posts">Posts</Link>
           </MenuItem>
-          <MenuItem value="new-win">
-            <Folders className="mr-2 h-4 w-4" />
-            <Link href="#">Categories</Link>
-          </MenuItem>
+
           <MenuItem value="new-prf">
             <User className="mr-2 h-4 w-4" />
 
             <Link href="#">Profile</Link>
           </MenuItem>
-          <MenuItem value="new-cred">
-            <CreditCard className="mr-2 h-4 w-4" />
 
-            <Link href="#">Billing</Link>
-          </MenuItem>
           <MenuItem value="new-sett">
             <Settings className="mr-2 h-4 w-4" />
 

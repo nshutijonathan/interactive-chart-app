@@ -1,21 +1,21 @@
-"use strict";
+"use client";
 import {
-    DialogActionTrigger,
-    DialogBody,
-    DialogCloseTrigger,
-    DialogContent,
-    DialogFooter,
-    DialogHeader,
-    DialogRoot,
-    DialogTitle,
+  DialogActionTrigger,
+  DialogBody,
+  DialogCloseTrigger,
+  DialogContent,
+  DialogFooter,
+  DialogHeader,
+  DialogRoot,
+  DialogTitle,
 } from "@/components/ui/dialog";
 import { InputGroup } from "@/components/ui/input-group";
 import { Button, HStack, Heading, Input, Stack, Table } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 import {
-    PaginationNextTrigger,
-    PaginationPrevTrigger,
-    PaginationRoot,
+  PaginationNextTrigger,
+  PaginationPrevTrigger,
+  PaginationRoot,
 } from "../../components/ui/pagination";
 import { fetchPosts } from "../../services/api";
 

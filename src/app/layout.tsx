@@ -1,5 +1,7 @@
 "use client";
 
+
+import Footer from "@components/Footer";
 import Navbar from "@components/Navbar";
 import Sidebar from "@components/Sidebar";
 import { Provider } from "@components/ui/provider";
@@ -34,6 +36,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             </div>
             <div className="p-5 w-full md:max-w-[1140px]">{children}</div>
           </div>
+          <Footer />
         </Provider>
       </body>
     </html>
